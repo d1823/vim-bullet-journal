@@ -11,6 +11,8 @@
 A very simple journaling plugin. Nothing much besides some syntax highlighting, spellchecking and some basic keybindings
 related to moving between different states of the item on the list.
 
+Inspired by Akshay's [Plain Text Journaling](https://peppe.rs/posts/plain_text_journaling/) I read a while ago.
+
 # Usage
 Reference the `:h bullet-journal`.
 
