@@ -1,0 +1,43 @@
+*bullet-journal.txt*    Bullet Journal
+
+Author: Dawid Wołosowicz <https://1823.pl>
+
+INTRODUCTION                        *bullet-journal*
+
+A simple Vim plugin offering some journaling capabilities. Based on the idea
+of plain text journaling by Akshay (https://peppe.rs/posts/plain_text_journaling/).
+
+KEYBINDINGS                         *bullet-journal-keybindings*
+
+<C-i>           Insert a new note at the very top of the file.
+<S-h>           Rotate the list item type backward.
+<S-l>           Rotate the list item type forward.
+
+
+ABBREVIATIONS                       *bullet-journal-abbreviations*
+
+Since some of the list types are decorated using non-typable characters, the
+plugin configured some abbreviations expanding at the begginning of a line.
+
+    Abbreviation            Expansion
+    "todo"                  "·"
+    "done"                  "×"
+    "event"                 "o"
+    "note"                  "-"
+    "moved"                 ">"
+
+
+FORMATTING                          *bullet-journal-formatting*
+
+The plugin configures the |formatprg| and |equalprg| so you can use either the
+{gqip} or {==} over a selection to sort the items on the list. Sorting is
+done using the version sort (-V) algorithm from GNU sort utility.
+
+
+ABOUT                               *bullet-journal-about*
+
+Grab the latest version or report a bug on GitHub:
+
+http://github.com/d1823/vim-bullet-journal
+
+ vim:tw=78:et:ft=help:norl:
