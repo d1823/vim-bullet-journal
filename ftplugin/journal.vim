@@ -63,3 +63,4 @@ vnoremap <silent><buffer> <S-l> :call RotateRight()<CR>gv
 " allows to store them in the following order: event, note, moved, todo, done.
 " Honestly, the order isn't as important as the fact that it's consistent.
 setl formatprg=sort\ -V
+setl equalprg=sort\ -V
